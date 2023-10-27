@@ -1,0 +1,21 @@
+@relation employee
+@attribute gender{male,female}
+@attribute age numeric @attribute
+confirmed {yes,no}
+@attribute salary{10000,15000,20000,25000,30000,35000} @attribute
+performance{poor,average,good}
+@data male,25,yes,10000,poor
+male,25,no,15000,poor
+female,25,yes,10000,poor
+female,25,yes,15000,poor
+male,28,no,15000,poor
+female,28,no,10000,poor
+male,30,yes,20000,average
+female,30,no,20000,average
+female,30,no,25000,average
+male,30,no,25000,average
+male,35, yes,30000,good
+female,40,yes,35000,good
+male,40,yes,30000,good
+male,40,yes,35000,good
+female,40,yes,35000,good
